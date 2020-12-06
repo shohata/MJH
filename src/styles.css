@@ -1,0 +1,41 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.sidebar {
+  @apply bg-channel-sidebar;
+}
+
+.weeklyreport-titles {
+  @apply flex flex-col p-6;
+}
+
+.weeklyreport-detail {
+  @apply flex flex-col p-6;
+}
+
+.catalog-title {
+  @apply text-white text-base py-1 px-4;
+}
+
+.catalog-content {
+  @apply text-white text-sm py-1 px-8;
+}
+
+.report {
+  @apply border-solid border-2 border-black py-1 m-2;
+}
+
+.report-author {
+  @apply text-black text-base py-1 px-4 font-bold;
+}
+
+.report-content {
+  @apply text-black text-base py-1 px-4 ;
+}
+
+.close-button {
+  @apply mr-2;
+}
